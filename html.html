@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Boxes with Radio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="heading">
+        <div class="line"></div>
+        <div class="heading-text">YAY! It's BOGO</div>
+        <div class="line"></div>
+      </div>
+      <!-- Top Box -->
+      <div class="box" id="top-box">
+        <div class="box-header">
+          <input type="radio" name="box-selector" class="box-radio" />
+          <div class="box-container">
+            <div class="left-contanet">
+              <div class="title-container">
+                <div class="title">1 Unit</div>
+                <div class="offer">10% off</div>
+              </div>
+              <div class="tag">Standerd price</div>
+            </div>
+            <div class="right-content">
+              <div class="new-price">$10.00 USD</div>
+              <div class="old-price">$24.00 USD</div>
+            </div>
+          </div>
+        </div>
+        <div class="box-content">
+          <div class="options">
+            <div class="option-group">
+              <label for="top-size">Size</label>
+              <select id="top-size">
+                <option>Small</option>
+                <option>Medium</option>
+                <option>Large</option>
+              </select>
+            </div>
+            <div class="option-group">
+              <label for="top-color">Color</label>
+              <select id="top-color">
+                <option>Red</option>
+                <option>Green</option>
+                <option>Blue</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Middle Box -->
+      <div class="box" id="middle-box">
+        <span class="box-tag">Most Popular</span>
+        <div class="box-header">
+          <input type="radio" name="box-selector" class="box-radio" />
+          <div class="box-container">
+            <div class="left-contanet">
+              <div class="title-container">
+                <div class="title">2 Unit</div>
+                <div class="offer">20% off</div>
+              </div>
+            </div>
+            <div class="right-content">
+              <div class="new-price">$18.00 USD</div>
+              <div class="old-price">$24.00 USD</div>
+            </div>
+          </div>
+        </div>
+        <div class="box-content">
+          <div class="options">
+            <div class="option-group">
+              <label for="middle-size">Size:</label>
+              <select id="middle-size">
+                <option>Small</option>
+                <option>Medium</option>
+                <option>Large</option>
+              </select>
+            </div>
+            <div class="option-group">
+              <label for="middle-color">Color:</label>
+              <select id="middle-color">
+                <option>Red</option>
+                <option>Green</option>
+                <option>Blue</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Box -->
+      <div class="box" id="bottom-box">
+        <div class="box-header">
+          <input type="radio" name="box-selector" class="box-radio" />
+          <div class="box-container">
+            <div class="left-contanet">
+              <div class="title-container">
+                <div class="title">3 Unit</div>
+                <div class="offer">30% off</div>
+              </div>
+            </div>
+            <div class="right-content">
+              <div class="new-price">$24.00 USD</div>
+              <div class="old-price">$24.00 USD</div>
+            </div>
+          </div>
+        </div>
+        <div class="box-content">
+          <div class="options">
+            <div class="option-group">
+              <label for="bottom-size">Size:</label>
+              <select id="bottom-size">
+                <option>Small</option>
+                <option>Medium</option>
+                <option>Large</option>
+              </select>
+            </div>
+
+            <div class="option-group">
+              <label for="bottom-color">Color:</label>
+              <select id="bottom-color">
+                <option>Red</option>
+                <option>Green</option>
+                <option>Blue</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="price-info">
+        <div class="delivery-text">Free Delivery</div>
+        <div class="price-text">Total : $18.00 USD</div>
+      </div>
+
+      <div class="add-cart">+ Add to Cart</div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
